@@ -6,7 +6,7 @@ I like to work in a windows environnemt. Unfortunately there is no smina executa
 Install the wsl2 environnement according to the well documented procedure : https://docs.microsoft.com/fr-fr/windows/wsl/install
 
 Remarques:
-You have to execute the command line interface in the admintrator mode, else th error "the requested operation requires elevation" appears.
+You have to execute the command line interface in the admin mode, else the error "the requested operation requires elevation" appears.
 You can directly choose which linux distribution to install. I took :> wsl -- install -d Ubuntu-18.04
 
 D'ont forget to change the subsystem from wsl to wsl2 : >wsl --set-default-version 2
