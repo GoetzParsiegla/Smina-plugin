@@ -6,6 +6,6 @@ I like to work in a windows environnemt. Unfortunately there is no smina executa
 Install the wsl2 environnement as well documented in the microsaft help page : https://docs.microsoft.com/fr-fr/windows/wsl/install
 
 Remarques:
-Il faut executer le'invité de command en mode administrateur, sinon l'erreur "'opération demandée nécessite une élévation" s'affiche.
+Il faut executer l'invité de commandes en mode administrateur, sinon l'erreur "'opération demandée nécessite une élévation" s'affiche.
 On peut directement choisir quel installation linux. J'ai choisi :> wsl -- install -d Ubuntu-18.04
 Il ne faut pas oublier de changer le subsystem de wsl à wsl2 : >wsl --set-default-version 2
