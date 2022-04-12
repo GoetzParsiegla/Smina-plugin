@@ -3,7 +3,7 @@
 <img width="346" alt="image" src="https://user-images.githubusercontent.com/102952395/162983719-287b957d-8cc1-4d77-9ef2-ba20833cfbb3.png"><img width="346" alt="image" src="https://user-images.githubusercontent.com/102952395/162983965-896ca987-7ba6-4b50-a326-d8f0aed61af0.png">
 
 
-This is a plugin for PyMol 2.x tu use the vina/Autodock fork SMINA (https://sourceforge.net/projects/smina/) under Windows 10 or 11 with a linux subsystem installed. It is coded in Python 3 with PyQT5 (PySide2). It allows to dock single ligands or lists, with rigid or flexible sidechains and to post-refine the results. Import of residues selections and the results display are intreractive beween the plugin and PyMol.   
+This is a plugin for PyMol 2.x tu use the vina/Autodock fork SMINA (https://sourceforge.net/projects/smina/) under Windows 10 or 11 with a linux subsystem installed. It is coded in Python 3 with PyQT5 (PySide2). It allows to dock single ligands or lists, with rigid or flexible sidechains and to post-refine the results. Import of residue selections or the display of results are intreractive beween the plugin and PyMol.   
 # Why using smina under wsl2 in a Windows environnement ?
 I like to work in a windows environnemt. Unfortunately there is no smina executable compiled for windows available. Therfore I wrote this plugin which works in PyMol under windows and executes the static smina version for linux available on the smina home page in a wsl2 environnement. The user has the impression to work completely under windows. I will also release a modified version of this interface for people who like to work completly under linux in the future. 
 # How to install ?
