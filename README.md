@@ -18,4 +18,4 @@ You can directly choose which linux distribution to install. I installed Ubuntu 
 
 Don't forget to change the subsystem from wsl to wsl2 : >wsl --set-default-version 2
 
-If you use an open source version of PyMol from Christophe Gohlkes site, you have to install Python (3.8 to 3.10 will work fine) and PySide2 (https://pypi.org/project/PySide2/) under Windows according to your Python version. I installed the shiboken2-5.15.2 and PySide2-5.15.2 .whl files for my Python version manually with pip.
+If you use an open source version of PyMol from Christophe Gohlkes site (https://github.com/cgohlke/pymol-open-source-wheels), you have to install Python (3.8 to 3.10 will work fine) and PySide2 (https://pypi.org/project/PySide2/) under Windows according to your Python version. I installed the shiboken2-5.15.2 and PySide2-5.15.2 .whl files for my Python version manually with pip.
